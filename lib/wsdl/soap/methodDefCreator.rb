@@ -165,7 +165,7 @@ __EOD__
     elsif definedtype = @complextypes[part.type]
       return ['::SOAP::SOAPElement', part.type]
     else
-      raise RuntimeError.new("part: #{part.name} cannot be resolved")
+    #  raise RuntimeError.new("part: #{part.name} cannot be resolved")
     end
   end
 
